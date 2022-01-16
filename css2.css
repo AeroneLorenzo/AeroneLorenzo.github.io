@@ -1,0 +1,110 @@
+p.gluttons{
+    left:1000px;
+    position:absolute;
+    top:80px;
+    width:600px;
+}
+
+h2{
+    color:hotpink !important;
+}
+div#procedure{
+    top:600px;
+    right:700px;
+    position:absolute;
+    color: mediumspringgreen;
+    padding:5px;
+    border: solid 2px rgb(12, 217, 145);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.step1{
+    border:2px dashed orangered;
+}
+.step2{
+    border:2px dotted olive;
+}
+.step3{
+    border:2px groove mediumturquoise;
+}
+.step4{
+    border:2px outset hotpink;
+}
+#1st #2nd #3rd #4th{
+    border-style:inset;
+    border-color:rgb(0, 245, 102);
+}
+
+
+.electroCute{ 
+top:400px;
+right:120px;
+position:absolute;
+color:olive;
+
+}
+body>h2{
+    position:absolute;
+    top:500px;
+    left:300px;
+    font-family: fantasy;
+    color:hotpink;
+
+}
+tr{
+    border-collapse:collapse;
+}
+td{
+    border:2px ridge mediumturquoise;
+    outline:3px;
+    padding:2px;
+}
+em{
+    color:orangered;
+}
+div > img{
+top:200px;
+position:absolute;
+}
+div>p#Pinoy{
+    top:250px;
+    color:hotpink;
+    position:absolute;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:400px;
+    left:300px;
+    padding:12px;
+    margin:3px;
+    border-style:double;
+    
+
+}
+th{
+border:3px double mediumturquoise;
+color:hotpink;
+
+}
+table{
+width:500px;
+color:yellow;
+border:dashed;
+right: 60px;
+position:absolute;
+top:20px;
+
+}
+h1{
+left:200px;
+padding:12px;
+color:orangered;
+position:absolute;
+border:2px dashed mediumturquoise;
+
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.7689c5513084cd3ae199cec4f9b84af3?rik=epCX11FOp%2bUvgQ&riu=http%3a%2f%2fsfwallpaper.com%2fimages%2fbackground-food-7.jpg&ehk=OyOpA7JOvJ5kSZoKblkX96cNQ3uiu%2fHJUTOzI7b3j6o%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat:no-repeat;
+    background-size:1700px;
+
+}
