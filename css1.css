@@ -1,3 +1,4 @@
+
  iframe{
  position:absolute;
     width:350px;
@@ -42,10 +43,9 @@ padding:0;
 h1.boodleFight, h4, h2.foodfacts, h3#kakanin, #spook, .Bibingka, div > h1, div > p, h1, ul, div > img, .adobongmanacc{
 position:absolute !important;
 		}
-*{
-box-sizing: content-box !important;
-    
-}   
+
+
+
 h1.boodleFight{
     top:350px;
     left:500px;
@@ -68,8 +68,8 @@ h4{
     text-align:center;
     box-sizing: content-box;
     width:400px;
+}
 
-		}
 #section1{  
     position:absolute;                       
     top:100px;
@@ -95,13 +95,15 @@ left:220px;
 }
 
 h2.foodfacts{
-right:300px;
+left:1080px;
 top:20px;
 position:absolute;
 color:orangered;
 border-color:mediumturquoise;
 border-style:dotted;
 padding:5px;
+width:120px;
+
 }
 h3#kakanin{
 position:absolute;
@@ -132,7 +134,7 @@ margin:2px;
     left:1140px;
     position:absolute;
     top:620px;
-    
+
 }
 h3#goTopage2{
 top:560px;
