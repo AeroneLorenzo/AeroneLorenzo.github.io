@@ -1,3 +1,90 @@
+#facebook a:hover {
+    background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png')  -24px -21px ;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+  }
+  
+  #youtube a:hover {
+    background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') -24px -121px;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+
+    
+  }
+  
+  #twitter a:hover {
+    background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') -118px -21px;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+    
+  }
+  #instagram a:hover {
+    background:url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') -212px -121px;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+  }
+#navlist {
+    position: absolute;
+    
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+
+    
+  }
+  
+  #navlist li, #navlist a {
+    height: 83px;
+    display: block;
+    top:1200px;
+    
+  }
+  
+  #facebook {
+      left: 0px;
+      background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -24px -21px;
+      background-size: 320px 320px;
+      width: 83px;
+      height: 81px;
+      bottom:0;
+
+      
+    }
+    
+    #twitter {
+      left: 73px;
+     background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -118px -21px;
+      background-size: 320px 320px;
+      width: 84px;
+      height: 81px;
+      bottom:0;
+    }
+    
+    #youtube {
+      left: 150px;
+      background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -24px -121px;
+      background-size: 320px 320px;
+      width: 83px;
+      height: 81px;
+      bottom:0;
+      
+    }
+    #instagram {
+        left:225px;
+       background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -212px -121px;
+      background-size: 320px 320px;
+      width: 83px;
+      height: 81px;
+      bottom:0;
+    }
+
+
+
+
 article{
     border: 3px dotted rgb(145, 255, 0);
 font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -152,7 +239,7 @@ border:2px dashed mediumturquoise;
 top:100px;
 }
 body{
-        background-image: url(https://th.bing.com/th/id/R.7689c5513084cd3ae199cec4f9b84af3?rik=epCX11FOp%2bUvgQ&riu=http%3a%2f%2fsfwallpaper.com%2fimages%2fbackground-food-7.jpg&ehk=OyOpA7JOvJ5kSZoKblkX96cNQ3uiu%2fHJUTOzI7b3j6o%3d&risl=&pid=ImgRaw&r=0);
+        background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg);
         background-repeat:no-repeat;
         background-size:2700px;}
 
@@ -160,7 +247,7 @@ body{
         li {
  float: left;
 }
-li a {
+ul#navigation>li a {
  display: block;
 padding: 8px;
 color:rgb(0, 255, 234);
