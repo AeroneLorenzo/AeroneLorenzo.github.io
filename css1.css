@@ -8,7 +8,7 @@ position:absolute;
 25% {border: 15px dotted blue; left:1200px; top:0px;}
 50% {border: 20px dotted seagreen; left:1200px; top: 1400px;}
 75% {border:25px dotted fuchsia; left:0px; top:1400px;
-100% {border:30px dotted gold; left:0px; top;0px;}
+100% {border:30px dotted gold; left:0px; top:0px;}
 }
 
 
