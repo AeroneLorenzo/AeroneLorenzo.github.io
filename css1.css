@@ -1,3 +1,18 @@
+div#catchMe{
+animation: myFirst 20s ease infinite forwards;
+position:absolute;
+
+}
+@keyframes myFirst{
+0% {border:10px dotted yellow; top:0px; left:0px;}
+25% {border: 15px dotted blue; left:1200px; top:0px;}
+50% {border: 20px dotted seagreen; left:1200px; top: 1400px;}
+75% {border:25px dotted fuchsia; left:0px; top:1400px;
+100% {border:30px dotted gold; left:0px; top;0px;}
+}
+
+
+}
 #navlist:target{
 background-color:grey;
 
