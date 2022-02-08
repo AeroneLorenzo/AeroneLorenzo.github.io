@@ -1,3 +1,98 @@
+#navlist:target{
+background-color:grey;
+
+}
+
+   
+
+
+
+
+
+
+#facebook a:hover {
+    background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png')  -24px -21px ;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+  }
+  
+  #youtube a:hover {
+    background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') -24px -121px;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+
+    
+  }
+  
+  #twitter a:hover {
+    background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') -118px -21px;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+    
+  }
+  #instagram a:hover {
+    background:url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') -212px -121px;
+    background-size: 320px 320px;
+    border:2px solid yellow;
+  }
+#navlist {
+    position: absolute;
+    
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+
+    
+  }
+  
+  #navlist li, #navlist a {
+    height: 83px;
+    display: block;
+    top:1000px;
+    
+  }
+  
+  #facebook {
+      left: 0px;
+      background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -24px -21px;
+      background-size: 320px 320px;
+      width: 83px;
+      height: 81px;
+      bottom:0;
+
+      
+    }
+    
+    #twitter {
+      left: 73px;
+     background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -118px -21px;
+      background-size: 320px 320px;
+      width: 84px;
+      height: 81px;
+      bottom:0;
+    }
+    
+    #youtube {
+      left: 150px;
+      background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -24px -121px;
+      background-size: 320px 320px;
+      width: 83px;
+      height: 81px;
+      bottom:0;
+      
+    }
+    #instagram {
+        left:225px;
+       background: url('https://i.pinimg.com/originals/f1/a3/c0/f1a3c03479f4437eb83d26eb1f13ae71.png') no-repeat -212px -121px;
+      background-size: 320px 320px;
+      width: 83px;
+      height: 81px;
+      bottom:0;
+    }
 
 #food-link-1{
     position:absolute;
@@ -254,7 +349,7 @@ iframe{
    li {
         float: left;
    }
-   li a {
+   ul#navigation>li a {
         display: block;
        padding: 8px;
        color:rgb(0, 255, 234);
