@@ -116,6 +116,11 @@
     
     
     }
+    #latik{
+        color:rgb(86, 245, 12);
+        border:2px dashed yellow;
+
+    }
     .food-review-source{
         color:deepskyblue;
         position:absolute;
@@ -131,9 +136,7 @@
             width:600px;
         }
         
-        h2{
-            color:hotpink !important;
-        }
+        
         div#procedure{
             top:600px;
             right:700px;
@@ -163,6 +166,21 @@
             border:3px ridge gold;
             
     
+        }
+        .step7{
+            border:2px solid violet;
+        }
+        .step8{
+            border:2px dotted fuchsia;
+        }
+        .step9{
+            border:3px outset burlywood;
+        }
+        .stepA{
+            border:2px inset orangered;
+        }
+        .stepB{
+            border:2px dashed steelblue;
         }
         #1st, #2nd, #3rd, #4th, #5th, #6th{
            color:blue;
