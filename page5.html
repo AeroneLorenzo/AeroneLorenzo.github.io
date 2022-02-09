@@ -29,13 +29,16 @@ a:hover, a:active {
 h1#external{
 	background-color:hotpink;
 	border:3px dashed rgb(234 13 25);
+	width:200px;
+	text-align:center;
 	animation:doubleName 6s inear infinite forwards;
 	
 	
 	}
 @keyframes doubleName{
-	from{transform:rotate(0deg); background-color:royalblue;}
-	to{transform:rotate(360deg); background-color:orangered;}
+	0%{transform:rotate(0deg); -webkit-transform:rotate(180deg); background-color:royalblue;}
+	50%{transform:rotate(180deg}; -webkit-transform:rotate(180deg); background-color:indigo;}
+	100%{transform:rotate(360deg); -webkit-transform:rotate(180deg); background-color:orangered;}
 	
 	
 	
